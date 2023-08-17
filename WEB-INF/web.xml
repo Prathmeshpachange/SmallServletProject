@@ -1,0 +1,13 @@
+<web-app>
+       
+      <servlet>
+        <servlet-name>age</servlet-name>
+        <servlet-class>AgeServlet</servlet-class>
+      </servlet>
+
+      <servlet-mapping>
+       <servlet-name>age</servlet-name>
+       <url-pattern>/vote</url-pattern>
+      </servlet-mapping> 
+
+</web-app>  
